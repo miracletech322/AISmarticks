@@ -1,0 +1,17 @@
+{
+    "API Public Key": "API:n julkinen avain",
+    "API Token": "API-tunniste",
+    "Authentication or permission error, e.g. incorrect API keys or your store is protected with Basic HTTP Authentication": "Tunnistautumis- tai käyttövaltuusvirhe, esim. väärät API-avaimet tai myymäläsi on suojattu perus-HTTP-tunnistautumisella.",
+    "Bad request": "Huono pyyntö",
+    "Error occurred connecting to the API": "API-yhteyden muodostamisessa tapahtui virhe",
+    "Example": "Esimerkki",
+    "Internal store error": "Kaupan sisäinen virhe",
+    "No orders found": "Tilauksia ei löytynyt",
+    "Refresh": "Päivitä",
+    "Store URL": "Kaupan URL-osoite",
+    "Store not found at the specified URL": "Myymälää ei löydy määritetystä URL-osoitteesta",
+    "Successfully connected to the API.": "Onnistunut API-yhteyden muodostaminen.",
+    "Unknown error": "Tuntematon virhe",
+    "View all": "Näytä kaikki",
+    "You can generate EDD API credentials in your WordPress installation under \"Downloads » Tools » API Keys\"": "Voit luoda EDD API-tunnukset WordPress-asennuksessasi kohdassa \"Lataukset \" Työkalut \" API-avaimet\"."
+}

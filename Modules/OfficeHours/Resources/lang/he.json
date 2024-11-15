@@ -1,0 +1,13 @@
+{
+    "Auto replies will be sent outside of the specified office hours.": "תשובות אוטומטיות יישלחו מחוץ לשעות המשרד שצוינו",
+    "Day off": "יום חופשי",
+    "Friday": "שישי",
+    "Monday": "שני",
+    "Office Hours": "שעות העבודה",
+    "Office hours are based on your :%a_begin%company timezone:%a_end%.": "שעות העבודה מבוססות על :%a_begin%אזור הזמן של החברה שלך:%a_end%",
+    "Saturday": "שבת",
+    "Sunday": "ראשון",
+    "Thursday": "חמישי",
+    "Tuesday": "שלישי",
+    "Wednesday": "רביעי"
+}

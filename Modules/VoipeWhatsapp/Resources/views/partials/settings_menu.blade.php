@@ -1,0 +1,1 @@
+<li @if (\Helper::isMenuSelected('voipewhatsapp'))class="active"@endif><a href="{{ route('mailboxes.voipewhatsapp.settings', ['mailbox_id'=>$mailbox->id]) }}"><i class="glyphicon glyphicon-erase"></i> {{ __('VoipeWhatsapp') }}</a></li>

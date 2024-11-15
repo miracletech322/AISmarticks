@@ -1,0 +1,1 @@
+<li @if (Route::is('mailboxes.edd'))class="active"@endif><a href="{{ route('mailboxes.edd', ['id'=>$mailbox->id]) }}"><i class="glyphicon glyphicon-download-alt"></i> EDD</a></li>

@@ -1,0 +1,25 @@
+{
+    "name": "freescout/voipesmstickets",
+    "description": "",
+    "authors": [
+        {
+            "name": "FreeScout",
+            "email": "support@freescout.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\VoipeSmsTickets\\Providers\\VoipeSmsTicketsServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\VoipeSmsTickets\\": ""
+        }
+    }
+}

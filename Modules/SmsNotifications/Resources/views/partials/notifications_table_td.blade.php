@@ -1,0 +1,1 @@
+<td class="subs-cb subscriptions-sms"><input type="checkbox" @include('users/is_subscribed', ['medium' => \SmsNotifications::MEDIUM_SMS, 'event' => $event]) name="{{ $subscriptions_formname }}[{{ \SmsNotifications::MEDIUM_SMS }}][]" value="{{ $event }}"></td>

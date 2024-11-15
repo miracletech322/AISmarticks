@@ -1,0 +1,17 @@
+{
+    "Conversation Created": "Тикет создан",
+    "Conversation Assigned": "Тикет назначен",
+    "Conversation Note Added": "Добавлено примечание",
+    "Conversation Customer Reply": "Клиент ответил",
+    "Conversation Agent Reply": "Агент ответил",
+    "Conversation Merged": "Тикет объединён",
+    "Conversation Moved": "Тикет перемещён",
+    "Conversation Status Updated": "Статус тикета обновлён",
+    "A <b>New Conversation<\/b> was created by :user_name": ":user_name создал(а) <b>новый тикет<\/b>",
+    "A <b>New Conversation<\/b> was created": "Создан <b>новый тикет<\/b>",
+    "Conversation <b>assigned<\/b> to <b>:assignee_name<\/b> by :user_name": "<b>:assignee_name<\/b> назначен исполнителем",
+    "A customer <b>replied<\/b> to a conversation": "Пользователь <b>ответил(а)<\/b> на тикет",
+    ":user_name <b>replied<\/b>": ":user_name <b>ответил(а)<\/b>",
+    "Conversation <b>status changed<\/b> to <b>:status<\/b> by :user_name": "Статус тикета изменился на <b>:status<\/b>",
+    "Bot API Token": "API-токен бота"
+}

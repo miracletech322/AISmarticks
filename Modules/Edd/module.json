@@ -1,0 +1,24 @@
+{
+    "name": "Easy Digital Downloads",
+    "alias": "edd",
+    "description": "View customer EDD orders in the Customer Profile pane!",
+    "version": "1.0.7",
+    "detailsUrl": "https://freescout.net/module/easy-digital-downloads/",
+    "author": "FreeScout",
+    "authorUrl": "https://freescout.net",
+    "requiredAppVersion": "1.8.97",
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "active": 0,
+    "order": 0,
+    "providers": [
+        "Modules\\Edd\\Providers\\EddServiceProvider"
+    ],
+    "aliases": {
+        "Edd": "Modules\\Edd\\Providers\\EddServiceProvider"
+    },
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

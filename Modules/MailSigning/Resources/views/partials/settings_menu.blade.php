@@ -1,0 +1,1 @@
+<li @if (\Helper::isMenuSelected('mailsigning'))class="active"@endif><a href="{{ route('mailboxes.mailsigning.settings', ['mailbox_id'=>$mailbox->id]) }}"><i class="glyphicon glyphicon-lock"></i> Mail Signing</a></li>

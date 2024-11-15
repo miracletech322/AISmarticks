@@ -1,0 +1,12 @@
+{
+    "SMS Notifications": "SMS-Benachrichtigung",
+    "SMS notifications can not be sent to this number. Enter full phone number with the country code (with or without \"+\" in front). Example for USA: +1 (888) 512-27-86 or +18885122786": "An diese Nummer können keine SMS-Benachrichtigungen gesendet werden. Geben Sie die vollständige Telefonnummer mit der Landesvorwahl ein (mit oder ohne vorangestelltem \"+\"). Beispiel für die USA: +1 (888) 512-27-86 oder +18885122786",
+    "Instruction": "Installationsanweisung",
+    "API errors can be found in :%a_begin%Manage » Logs » SMS Notifications Errors:%a_end%.": "API-Fehler finden Sie unter :%a_begin%Manage » Logs » SMS Notifications Errors:%a_end%.",
+    "Account SID": "Konto SID",
+    "Auth Token": "Authentifizierungs-Token",
+    "Twilio Phone Number": "Twilio Telefonnummer",
+    "API Key": "API-Schlüssel",
+    "Sender Phone Number": "Telefonnummer des Absenders",
+    "Leave this field empty to send SMS from a random shared phone number, or get a phone number :%a_begin%here:%a_end%.": "Lassen Sie dieses Feld leer, um SMS von einer zufälligen gemeinsamen Telefonnummer zu senden oder eine Telefonnummer zu erhalten. :%a_begin%here:%a_end%."
+}

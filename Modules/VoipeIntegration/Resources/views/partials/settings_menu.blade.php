@@ -1,0 +1,2 @@
+<li @if (\Helper::isMenuSelected('voipeintegration'))class="active"@endif><a href="{{ route('mailboxes.voipeintegration.settings', ['mailbox_id'=>$mailbox->id]) }}"><i class="glyphicon glyphicon-erase"></i> {{ __('Voipe Integration') }}</a></li>
+<li @if (\Helper::isMenuSelected('voipeintegration'))class="active"@endif><a href="{{ route('mailboxes.voipeintegration.settingscommon', ['mailbox_id'=>$mailbox->id]) }}"><i class="glyphicon glyphicon-erase"></i> {{ __('Voipe Settings') }}</a></li>

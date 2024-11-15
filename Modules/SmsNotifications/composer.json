@@ -1,0 +1,32 @@
+{
+    "name": "freescout/smsnotifications",
+    "description": "",
+    "authors": [
+        {
+            "name": "FreeScout",
+            "email": "support@freescout.net"
+        }
+    ],
+    "require": {
+        "giggsey/libphonenumber-for-php": "8.12.56",
+        "twilio/sdk": "6.43.4"
+    },
+    "replace": {
+        "symfony/polyfill-mbstring": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\SmsNotifications\\Providers\\SmsNotificationsServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\SmsNotifications\\": ""
+        }
+    }
+}

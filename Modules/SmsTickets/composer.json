@@ -1,0 +1,28 @@
+{
+    "name": "freescout/smstickets",
+    "description": "",
+    "authors": [
+        {
+            "name": "FreeScout",
+            "email": "support@freescout.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\SmsTickets\\Providers\\SmsTicketsServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "require": {
+        "twilio/sdk": "6.43.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\SmsTickets\\": ""
+        }
+    }
+}

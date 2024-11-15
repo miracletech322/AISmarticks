@@ -1,0 +1,25 @@
+{
+    "name": "freescout/mobilenotifications",
+    "description": "",
+    "authors": [
+        {
+            "name": "FreeScout",
+            "email": "support@freescout.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\MobileNotifications\\Providers\\MobileNotificationsServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MobileNotifications\\": ""
+        }
+    }
+}

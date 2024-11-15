@@ -1,0 +1,25 @@
+{
+    "name": "freescout/mailsigning",
+    "description": "",
+    "authors": [
+        {
+            "name": "FreeScout",
+            "email": "support@freescout.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\MailSigning\\Providers\\MailSigningServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MailSigning\\": ""
+        }
+    }
+}

@@ -1,0 +1,1 @@
+<li @if (\Helper::isMenuSelected('sms'))class="active"@endif><a href="{{ route('mailboxes.sms.settings', ['mailbox_id'=>$mailbox->id]) }}"><i class="glyphicon glyphicon-erase"></i> {{ __('SMS Tickets') }}</a></li>

@@ -1,0 +1,20 @@
+{
+    "Back to Teams": "חזרה לצוותים",
+    "Create Team": "צור צוות",
+    "Create a New Team": "צור צוות חדש",
+    "Deleting :name team will assign it's conversations to:": "מחיקת :name team יקצה את השיחות שלו ל:",
+    "Error occured processing the image. Make sure that PHP GD extension is enabled.": "אירעה שגיאה בעיבוד התמונה. ודא שהסיומת PHP GD מופעלת.",
+    "Icon": "סמל",
+    "Icons": "סמלים",
+    "Mailbox Access": "גישה לתיבת דואר",
+    "Members": "חברים",
+    "New Team": "צוות חדש",
+    "Team": "צוות",
+    "Team Image": "תמונת צוות",
+    "Team Name": "שם צוות",
+    "Team created": "צוות נוצר",
+    "Team deleted": "צוות נמחק",
+    "Team not found": "צוות לא נמצא",
+    "Team updated": "צוות עודכן",
+    "Teams": "צוותים"
+}

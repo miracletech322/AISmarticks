@@ -1,0 +1,25 @@
+{
+    "name": "freescout/voipewhatsapp",
+    "description": "",
+    "authors": [
+        {
+            "name": "FreeScout",
+            "email": "support@freescout.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\VoipeWhatsapp\\Providers\\VoipeWhatsappServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\VoipeWhatsapp\\": ""
+        }
+    }
+}

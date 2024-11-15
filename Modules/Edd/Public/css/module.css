@@ -1,0 +1,21 @@
+#edd-loader {
+	display: none;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+.edd-loading #edd-loader {
+	display: block;
+} 
+.edd-loading .edd-actions,
+.edd-loading .edd-orders-list,
+.edd-loading .edd-no-orders {
+	display: none;
+}
+
+.edd-orders-list li {
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #E3E8EB;
+}

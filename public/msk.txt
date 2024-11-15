@@ -1,0 +1,1 @@
+{"_token":"2mrdmRstr6PhEXPYSp5lYpsLvsZWZcQ7Ha9ti9ea","conversation_id":"1","mailbox_id":"1","saved_reply_id":null,"thread_id":"34","is_note":null,"subtype":null,"conv_history":null,"body":"<div>msg<\/div>","status":"2","user_id":"4","after_send":"2","after_send_default":"2","action":"send_reply","folder_id":"11"}

@@ -1,0 +1,24 @@
+{
+    "name": "VoipeSmsTickets",
+    "alias": "voipesmstickets",
+    "description": "",
+    "version": "1.0.0",
+    "detailsUrl": "",
+    "author": "",
+    "authorUrl": "",
+    "requiredAppVersion": "1.0.2",
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "active": 0,
+    "order": 0,
+    "providers": [
+        "Modules\\VoipeSmsTickets\\Providers\\VoipeSmsTicketsServiceProvider"
+    ],
+    "aliases": {
+		"VoipeSmsTickets": "Modules\\VoipeSmsTickets\\Providers\\VoipeSmsTicketsServiceProvider"
+	},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

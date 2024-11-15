@@ -1,0 +1,15 @@
+{
+    "Add": "הוסף",
+    "Add Checklist": "הוסף רשימת תיוג",
+    "Add Task": "הוסף משימה",
+    "Conversation with #:number number not found": "שיחה עם המספר #:number לא נמצאה",
+    "Enter tasks (one per line)": "הוסף משימות (אחת בכל שורה)",
+    "Link": "קישור",
+    "Link To Conversation": "קישור לשיחה",
+    "Pick Conversation": "בחר שיחה",
+    "Task description": "תיאור משימה",
+    "Task not found": "משימה לא נמצאה",
+    "This conversation is linked to the following conversation(s):": "השיחה הזו מקושרת לשיחות הבאות:",
+    "Unlink From Conversation": "בטל קישור משיחה",
+    "You don't have access to the #:number conversation": "אין לך גישה לשיחה מספר #:number"
+}

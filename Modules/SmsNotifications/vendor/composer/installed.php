@@ -1,0 +1,56 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => 'bf2bdb63f54098111d59db75c2658912901d8b83',
+        'name' => 'freescout/smsnotifications',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'freescout/smsnotifications' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => 'bf2bdb63f54098111d59db75c2658912901d8b83',
+            'dev_requirement' => false,
+        ),
+        'giggsey/libphonenumber-for-php' => array(
+            'pretty_version' => '8.12.56',
+            'version' => '8.12.56.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../giggsey/libphonenumber-for-php',
+            'aliases' => array(),
+            'reference' => '0f6481df7bee33fe0ed87d2af06770527a2e1c86',
+            'dev_requirement' => false,
+        ),
+        'giggsey/locale' => array(
+            'pretty_version' => '2.3',
+            'version' => '2.3.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../giggsey/locale',
+            'aliases' => array(),
+            'reference' => '5f035523740be40d40ac768a123c9bcc1ae12f56',
+            'dev_requirement' => false,
+        ),
+        'symfony/polyfill-mbstring' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
+        'twilio/sdk' => array(
+            'pretty_version' => '6.43.4',
+            'version' => '6.43.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../twilio/sdk',
+            'aliases' => array(),
+            'reference' => '805dd4890602542c98351921f50a664d89f782a0',
+            'dev_requirement' => false,
+        ),
+    ),
+);

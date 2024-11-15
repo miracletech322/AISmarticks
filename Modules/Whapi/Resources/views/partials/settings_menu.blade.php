@@ -1,0 +1,3 @@
+<li @if (\Helper::isMenuSelected('whapi'))class="active"@endif><a href="{{ route('mailboxes.whapi.settings', ['mailbox_id'=>$mailbox->id]) }}"><i class="glyphicon glyphicon-erase"></i> {{ __('Whapi') }}</a></li>
+<li @if (\Helper::isMenuSelected('whapi_dashboard'))class="active"@endif><a href="{{ route('mailboxes.whapi.dashboard', ['mailbox_id'=>$mailbox->id]) }}"><i class="glyphicon glyphicon-erase"></i> {{ __('Whapi dashboard') }}</a></li>
+<li @if (\Helper::isMenuSelected('whapi_channels'))class="active"@endif><a href="{{ route('mailboxes.whapi.channels', ['mailbox_id'=>$mailbox->id]) }}"><i class="glyphicon glyphicon-erase"></i> {{ __('Whapi channels') }}</a></li>

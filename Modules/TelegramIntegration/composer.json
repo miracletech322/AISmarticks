@@ -1,0 +1,38 @@
+{
+    "name": "freescout/telegramintegration",
+    "description": "",
+    "authors": [
+        {
+            "name": "FreeScout",
+            "email": "support@freescout.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\TelegramIntegration\\Providers\\TelegramIntegrationServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "require": {
+        "botman/botman": "2.6.1",
+        "botman/driver-telegram": "1.6.2"
+    },
+    "replace": {
+        "psr/container": "*",
+        "symfony/http-foundation": "*",
+        "doctrine/cache": "*",
+        "mockery/mockery": "*",
+        "phpunit/phpunit": "*",
+        "symfony/polyfill-mbstring": "*",
+        "symfony/var-dumper": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\TelegramIntegration\\": ""
+        }
+    }
+}

@@ -1,0 +1,1 @@
+<li @if (\Helper::isMenuSelected('telegram'))class="active"@endif><a href="{{ route('mailboxes.telegram.settings', ['mailbox_id'=>$mailbox->id]) }}"><i class="glyphicon glyphicon-erase"></i> {{ __('Telegram') }}</a></li>
