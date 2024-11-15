@@ -16,8 +16,8 @@ use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Facades\Storage;
 
-require_once base_path('Modules/AIAssistants/services/OpenAIService.php');
-use Modules\AIAssistants\Services\OpenAIService;
+require_once base_path('Modules/AIAssistant/services/OpenAIService.php');
+use Modules\AIAssistant\Services\OpenAIService;
 
 class WhatsAppController extends Controller
 {

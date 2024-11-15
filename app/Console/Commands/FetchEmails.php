@@ -20,9 +20,9 @@ use App\User;
 use Illuminate\Console\Command;
 use Webklex\IMAP\Client;
 
-require_once base_path('Modules/AIAssistants/services/OpenAIService.php');
+require_once base_path('Modules/AIAssistant/services/OpenAIService.php');
 
-use Modules\AIAssistants\Services\OpenAIService;
+use Modules\AIAssistant\Services\OpenAIService;
 
 class FetchEmails extends Command
 {
@@ -1418,7 +1418,7 @@ class FetchEmails extends Command
 
             // Try to separate customer reply using hashed reply separator.
             // In this case some extra text may appear below customer's reply:
-            //     On Thu, Jan 4, 2024 at 8:41 AM John Doe | Demo <test@example.org> wrote:
+            //     On Thu, Jan 4, 2024 at 8:41ï¿½AM John Doe | Demo <test@example.org> wrote:
             if (config('app.alternative_reply_separation')) {
                 if (!$user_reply_to_notification && $prev_message_id) {
                     $hashed_reply_separator = \MailHelper::getHashedReplySeparator($prev_message_id);

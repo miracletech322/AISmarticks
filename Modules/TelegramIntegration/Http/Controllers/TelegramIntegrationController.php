@@ -10,9 +10,9 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
 
-require_once base_path('Modules/AIAssistants/services/OpenAIService.php');
+require_once base_path('Modules/AIAssistant/services/OpenAIService.php');
 
-use Modules\AIAssistants\Services\OpenAIService;
+use Modules\AIAssistant\Services\OpenAIService;
 
 class TelegramIntegrationController extends Controller
 {

@@ -15,9 +15,9 @@ use Illuminate\Database\Eloquent\Factory;
 use Illuminate\Support\Facades\File;
 use Modules\VoipeIntegration\Providers\VoipeIntegrationServiceProvider;
 
-require_once base_path('Modules/AIAssistants/services/OpenAIService.php');
+require_once base_path('Modules/AIAssistant/services/OpenAIService.php');
 
-use Modules\AIAssistants\Services\OpenAIService;
+use Modules\AIAssistant\Services\OpenAIService;
 
 class VoipeSmsTicketsServiceProvider extends ServiceProvider
 {

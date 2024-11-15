@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\AIAssistants\Services;
+namespace Modules\AIAssistant\Services;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;

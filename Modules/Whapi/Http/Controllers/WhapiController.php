@@ -17,8 +17,8 @@ use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Facades\Storage;
 use App\Subscription;
 
-require_once base_path('Modules/AIAssistants/services/OpenAIService.php');
-use Modules\AIAssistants\Services\OpenAIService;
+require_once base_path('Modules//services/OpenAIService.php');
+use Modules\AIAssistant\Services\OpenAIService;
 
 class WhapiController extends Controller
 {
