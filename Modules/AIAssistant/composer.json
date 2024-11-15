@@ -1,0 +1,25 @@
+{
+    "name": "freescout/aiassistant",
+    "description": "",
+    "authors": [
+        {
+            "name": "FreeScout",
+            "email": "support@freescout.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\AIAssistant\\Providers\\AIAssistantServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\AIAssistant\\": ""
+        }
+    }
+}
